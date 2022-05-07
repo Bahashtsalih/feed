@@ -1,4 +1,7 @@
 <?php
+session_start(); 
+?>
+<?php
 if(isset($_POST["submit"]))
 {
     header('location:log.php');
